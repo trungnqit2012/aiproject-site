@@ -71,18 +71,18 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'aiproject.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME' : 'aiproject',
-        'USER' : 'dev',
+        'NAME' : 'trungnqit2012$aiproject',
+        'USER' : 'trungnqit2012',
         'PASSWORD' : '123987*b',
-        'HOST' : '127.0.0.1',
-        'PORT' : '3306',
+        'HOST' : 'trungnqit2012.mysql.pythonanywhere-services.com',
+        #'HOST' : '127.0.0.1',
+        #'PORT' : '3306',
     }
 }
 
