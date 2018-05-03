@@ -25,7 +25,7 @@ SECRET_KEY = 'mix8va=@3@86^tak2@8_%+6on%ucrgj*^tg$a8u412!e_4e%me'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['trungnqit2012.pythonanywhere.com']
 
 
 # Application definition
