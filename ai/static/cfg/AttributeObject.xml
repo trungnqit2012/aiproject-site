@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<Object name="Product" >
+	<Attr Order="1" name= "ItemName" display = "Tên sản phẩm" type = "CharField" desc = "" max_length="200" default="" upload_to=""  foreignkey="" foreignkey_on_delete="" />
+	<Attr Order="2" name= "Price" display = "Giá" type = "IntegerField" desc = "" max_length="" default="0" upload_to=""  foreignkey="" foreignkey_on_delete="" />
+	<Attr Order="3" name= "Quantity" display = "Số lượng tồn" type = "IntegerField" desc = "" max_length="" default="0" upload_to=""  foreignkey="" foreignkey_on_delete="" />
+	<Attr Order="4" name= "Unit" display = "Đơn vị" type = "CharField" desc = "" max_length="100" default="" upload_to=""  foreignkey="" foreignkey_on_delete="" />
+	<Attr Order="5" name= "Color" display = "Màu" type = "CharField" desc = "" max_length="50" default="" upload_to=""  foreignkey="" foreignkey_on_delete="" />
+	<Attr Order="6" name= "Image" display = "Hình Ảnh" type = "ImageField" desc = "" max_length="" default="" upload_to="uploads/%Y/%m/%d/"  foreignkey="" foreignkey_on_delete="" />
+	<Attr Order="7" name= "Description " display = "Mô tả" type = "TextField" desc = "" max_length="" default="" upload_to=""  foreignkey="" foreignkey_on_delete="" />
+</Object>
